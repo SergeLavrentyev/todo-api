@@ -12,7 +12,7 @@ Thumbs.db
 node_modules/
 reports/
 *.css.map
-
+.env
 
 # Папка с собранными файлами проекта
 dist/

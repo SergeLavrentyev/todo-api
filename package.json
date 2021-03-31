@@ -6,7 +6,12 @@
   "repository": "git@github.com:SergeLavrentyev/todo-api.git",
   "author": "SergeLavrentyev <sergelavrentyev@yandex.ru>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
+    "consola": "^2.15.3",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.12.2"
   },
