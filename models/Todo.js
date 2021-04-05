@@ -1,10 +1,10 @@
 const { Schema, model } = require("mongoose");
 
-const TodoItem = new Schema(
+const Todo = new Schema(
   {
     task: {
       type: String,
-      required: true,
+      require: true,
     },
     done: {
       type: Boolean,
@@ -14,4 +14,4 @@ const TodoItem = new Schema(
   { timestamps: true }
 );
 
-module.exports = model("tasks", TodoItem);
+module.exports = model("tasks", Todo);
